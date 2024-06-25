@@ -1,0 +1,118 @@
+* {
+    text-decoration: none;
+    width: 100%;
+}
+body {
+    background-image: url('assets/static/homebgTab.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(0.8);
+    padding: 0 5%;
+    width: 90%;
+    margin: 0;
+    height: 100lvh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2% 0;
+}
+.home-nav {
+    width: 70%;
+    max-width: 500px;
+    background-color: rgba(128, 128, 128, 0.75);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 5%;
+    align-self: center;
+}
+
+.home-nav .app {
+    margin: 0;
+}
+.home-nav .app-name{
+    display: none;
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+
+
+
+}
+.app-icon img {
+    width: 60px;
+    border-radius: 14px;
+}
+.app-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-name {
+    text-align: center;
+    color: white;
+}
+.widgets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+}
+.widget1 {
+    width: 50%;
+    background-image: url('assets/static/ssc.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px;
+    backdrop-filter: brightness(0.8);
+    display: flex;
+
+}
+.messages {
+    border-left: 5px solid white;
+    align-self: flex-end;
+    line-height: 0px;
+    color: white;
+    padding-left: 2%;
+    margin: 0 0 2% 2%;
+}
+.desc {
+    opacity: 0.8;
+}
+.widget2 {
+    width: 35%;
+    background-image: url('assets/static/bis-removebg-preview.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+.apps {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+}
